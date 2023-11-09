@@ -31,7 +31,6 @@
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/django/patterns&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -51,7 +50,7 @@
       <recent name="C:\django\patterns\5.Singleton " />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.visitor">
     <configuration name="template" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="patterns" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -166,6 +165,7 @@
       <workItem from="1698754546514" duration="7000" />
       <workItem from="1699462662482" duration="47000" />
       <workItem from="1699536200505" duration="3550000" />
+      <workItem from="1699547260922" duration="2079000" />
     </task>
     <servers />
   </component>

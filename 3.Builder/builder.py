@@ -2,8 +2,8 @@ from abc import ABC, abstractmethod
 from enum import Enum, auto
 from collections import namedtuple
 
-
 SpaghettiBase = namedtuple('SpaghettiBase', ['DoughDepth', 'DoughType'])
+
 
 class DoughDepth(Enum):
     THIN = auto()
@@ -80,13 +80,13 @@ class Spaghetti:
         self.cooking_time = None
 
     def __str__(self):
-        info: str = f'Spaghetti name: {self.name} \n'\
-                    f'Dough type: {self.dough.DoughDepth.name} & '\
-                    f'{self.dough.DoughType.name} \n'\
-                    f'Protein: {self.protein} \n'\
-                    f'Sauce: {self.sauce} \n'\
-                    f'Vegetables: {self.vegetables} \n'\
-                    f'Topping: {self.toppings} \n'\
+        info: str = f'Spaghetti name: {self.name} \n' \
+                    f'Dough type: {self.dough.DoughDepth.name} & ' \
+                    f'{self.dough.DoughType.name} \n' \
+                    f'Protein: {self.protein} \n' \
+                    f'Sauce: {self.sauce} \n' \
+                    f'Vegetables: {self.vegetables} \n' \
+                    f'Topping: {self.toppings} \n' \
                     f'Decor: {self.decor}'
         return info
 
@@ -119,7 +119,7 @@ class Builder(ABC):
 
 class SpicyPorkSpaghetti(Builder):
     def __init__(self):
-        self.spaghetti = Spaghetti('SpicySpaghetti')
+        self.spaghetti = Spaghetti('SpicyPorkSpaghetti')
         self.spaghetti.cooking_time = 20
 
     def prepare_dough(self) -> None:
@@ -146,7 +146,7 @@ class SpicyPorkSpaghetti(Builder):
 
 class SeaFoodSpaghetti(Builder):
     def __init__(self):
-        self.spaghetti = Spaghetti('SpicyPorkSpaghetti')
+        self.spaghetti = Spaghetti('SeaFoodSpaghetti')
         self.spaghetti.cooking_time = 20
 
     def prepare_dough(self) -> None:
