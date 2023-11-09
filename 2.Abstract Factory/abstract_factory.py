@@ -102,48 +102,48 @@ class VictorianSofa(Sofa):
 
 class AbstractFactory(ABC):
     @abstractmethod
-    def getChair(self) -> Chair:
+    def get_chair(self) -> Chair:
         pass
 
     @abstractmethod
-    def getTable(self) -> Table:
+    def get_table(self) -> Table:
         pass
 
     @abstractmethod
-    def getSofa(self) -> Sofa:
+    def get_sofa(self) -> Sofa:
         pass
 
 
 class ModernFactory(AbstractFactory):
-    def getChair(self) -> Chair:
+    def get_chair(self) -> Chair:
         return ModernChair()
 
-    def getTable(self) -> Table:
+    def get_table(self) -> Table:
         return ModernTable()
 
-    def getSofa(self) -> Sofa:
+    def get_sofa(self) -> Sofa:
         return ModernSofa()
 
 
 class ArtDecoFactory(AbstractFactory):
-    def getChair(self) -> Chair:
+    def get_chair(self) -> Chair:
         return ArtDecoChair()
 
-    def getTable(self) -> Table:
+    def get_table(self) -> Table:
         return ArtDecoTable()
 
-    def getSofa(self) -> Sofa:
+    def get_sofa(self) -> Sofa:
         return ArtDecoSofa()
 
 
 class VictorianFactory(AbstractFactory):
-    def getChair(self) -> Chair:
+    def get_chair(self) -> Chair:
         return VictorianChair()
 
-    def getTable(self) -> Table:
+    def get_table(self) -> Table:
         return VictorianTable()
 
-    def getSofa(self) -> Sofa:
+    def get_sofa(self) -> Sofa:
         return VictorianSofa()
 
 
@@ -152,9 +152,9 @@ class Customer:
         self._factory = factory
 
     def create_furniture(self):
-        chair = self._factory.getChair()
-        table = self._factory.getTable()
-        sofa = self._factory.getSofa()
+        chair = self._factory.get_chair()
+        table = self._factory.get_table()
+        sofa = self._factory.get_sofa()
         chair.create()
         table.create()
         sofa.create()
