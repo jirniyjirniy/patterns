@@ -1,18 +1,19 @@
 from abc import ABC, abstractmethod
-import time
+
 
 class Bread:
     def __init__(self, name: str, cook_time: int, cook_temperature: int):
         self.name = name
         self.cook_time = cook_time
         self.cook_temperature = cook_temperature
-        self._isCook = False
+        self._is_cooked = False
 
     def cook(self) -> None:
-        self._isCook = True
+        self._is_cooked = True
 
-    def isCooked(self) -> bool:
-        return self._isCook
+    def is_cooked(self) -> bool:
+        return self._is_cooked
+
 
 class OvenImplementor(ABC):
     @abstractmethod
@@ -35,8 +36,9 @@ class OvenImplementor(ABC):
     def get_oven_type(self) -> str:
         pass
 
+
 class ClayOvenImplementor(OvenImplementor):
-    def __init__(self, temperature: int=0):
+    def __init__(self, temperature: int = 0):
         self.temperature = temperature
         self.type = 'Clay Oven'
 
@@ -56,6 +58,7 @@ class ClayOvenImplementor(OvenImplementor):
 
     def get_temperature(self) -> int:
         return self.temperature
+
 
 class ElectricOvenImplementor(OvenImplementor):
     def __init__(self, temperature: int):
@@ -79,6 +82,7 @@ class ElectricOvenImplementor(OvenImplementor):
     def get_temperature(self) -> int:
         return self.temperature
 
+
 class Oven:
     def __init__(self, implementor: OvenImplementor):
         self.__implementor = implementor
@@ -97,7 +101,7 @@ class Oven:
         self.__prepare_stove(bread.cook_temperature)
         print(f'Cooking {bread.name} bread for {bread.cook_time} minutes at {bread.cook_temperature} C')
         self.__implementor.cook_bread(bread)
-        if bread.isCooked():
+        if bread.is_cooked():
             print('Bread already done!')
         else:
             print('Something wrong!')
@@ -110,6 +114,7 @@ class Oven:
 
     def get_implementor_name(self) -> str:
         return self.__implementor.get_oven_type()
+
 
 if __name__ == '__main__':
     first_bread = Bread('Borodinsky', 15, 200)

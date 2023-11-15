@@ -8,7 +8,7 @@ class InterfaceSpaghetti(ABC):
 
 
 class SpaghettiBase(InterfaceSpaghetti):
-    def __init__(self, cost):
+    def __init__(self, cost: float):
         self.__cost = cost
 
     def cost(self) -> float:
@@ -22,7 +22,7 @@ class InterfaceDecorator(InterfaceSpaghetti):
 
 
 class SpaghettiSpicy(InterfaceDecorator):
-    def __init__(self, wrapped: SpaghettiBase, sp_cost):
+    def __init__(self, wrapped: SpaghettiBase, sp_cost: float):
         self.__wrapped = wrapped
         self.__sp_cost = sp_cost
         self.__name = 'Spicy Spaghetti'

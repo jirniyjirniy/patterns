@@ -2,7 +2,7 @@ class Singleton:
     __instance = True
 
     @staticmethod
-    def getInstance():
+    def get_instance():
         if Singleton.__instance == True:
             Singleton()
         return Singleton.__instance
@@ -17,5 +17,5 @@ class Singleton:
 if __name__ == "__main__":
     obj = Singleton()
     print(obj)
-    obj = Singleton.getInstance()
+    obj = Singleton.get_instance()
     print(obj)

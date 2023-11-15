@@ -49,10 +49,10 @@ class CruiseControlAdapter(MilesControl):
     def get_km_speed(self) -> int:
         return self.cruise_control.get_speed()
 
-    def km_to_miles(self, km_speed):
+    def km_to_miles(self, km_speed) -> int:
         return int(km_speed * self.KILOMETERS_TO_MILES)
 
-    def miles_to_km(self, miles_speed):
+    def miles_to_km(self, miles_speed) -> int:
         return int(miles_speed / self.KILOMETERS_TO_MILES)
 
 

@@ -19,7 +19,7 @@ class VeganMenu(InterfaceMenu):
         return 'Vegan Menu'
 
 
-class NoteVeganMenu(InterfaceMenu):
+class NotVeganMenu(InterfaceMenu):
     def get_name(self) -> str:
         return 'Not Vegan Menu'
 
@@ -68,7 +68,7 @@ class PizzeriaFacade:
         self.waiter = Waiter()
         self.menu = {
             MenuType.VEGAN: VeganMenu,
-            MenuType.NOT_VEGAN: NoteVeganMenu,
+            MenuType.NOT_VEGAN: NotVeganMenu,
             MenuType.MIXED: MixedMenu
         }
 
