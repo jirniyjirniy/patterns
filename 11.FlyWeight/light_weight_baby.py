@@ -21,18 +21,28 @@ class PizzaOrderContext:
 class FlyWeightFactory:
 
     def __init__(self):
-        self.flyweights = []
+        self.flyweights = {}
 
     def get_flyweight(self, shared_state) -> PizzaOrderFlyWeight:
 
-        flyweights = list(filter(lambda x: x.shared_state ==
-                                           shared_state, self.flyweights))
-        if flyweights:
-            return flyweights[0]
+        flyweights = hash(str(shared_state))
+        print(flyweights)
+
+        if flyweights in self.flyweights:
+            return self.flyweights[flyweights]
         else:
-            flyweight = PizzaOrderFlyWeight(shared_state)
-            self.flyweights.append(flyweight)
-            return flyweight
+            flyweights = PizzaOrderFlyWeight(shared_state)
+            self.flyweights[flyweights] = flyweights
+            return flyweights
+
+        # flyweights = list(filter(lambda x: x.shared_state ==
+        #                                    shared_state, self.flyweights))
+        # if flyweights:
+        #     return flyweights[0]
+        # else:
+        #     flyweight = PizzaOrderFlyWeight(shared_state)
+        #     self.flyweights.append(flyweight)
+        #     return flyweight
 
     @property
     def total(self):

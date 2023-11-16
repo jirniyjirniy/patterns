@@ -1,6 +1,5 @@
 from abc import ABC, abstractmethod
 import copy
-from typing import List
 from builder_copy import (SpaghettiBase, DoughDepth, DoughType, Protein, Sauce, Toppings, Vegetables, Decor)
 
 

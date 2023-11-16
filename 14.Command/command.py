@@ -9,18 +9,18 @@ class InterfaceCommand(ABC):
 
 
 class Assistant:
-    def prepare_rice(self):
+    def prepare_rice(self) -> None:
         print('Assistant preparing rice for sushi')
 
-    def prepare_topping(self):
+    def prepare_topping(self) -> None:
         print('Assistant prepares sushi filling')
 
 
 class Sushi_Machine:
-    def prepare_sushi_machine(self):
+    def prepare_sushi_machine(self) -> None:
         print('Sushi machine getting ready for cooking')
 
-    def cooking_sushi(self):
+    def cooking_sushi(self) -> None:
         print('Machine wraps sushi')
 
 
@@ -95,7 +95,7 @@ class SushiMarket:
     def __init__(self):
         self.history: List[InterfaceCommand] = []
 
-    def addCommand(self, command: InterfaceCommand) -> None:
+    def add_command(self, command: InterfaceCommand) -> None:
         self.history.append(command)
 
     def cook(self) -> None:
@@ -113,11 +113,11 @@ if __name__ == '__main__':
     machine = Sushi_Machine()
     sushi_m = SushiMarket()
 
-    sushi_m.addCommand(PrepareSushiMachine(machine))
-    sushi_m.addCommand(MakeSushiBase(chief))
-    sushi_m.addCommand(PrepareRiceCommand(assistant))
-    sushi_m.addCommand(AppliedRice(chief))
-    sushi_m.addCommand(PrepareToppingCommand(assistant))
-    sushi_m.addCommand(AddTopping(chief))
-    sushi_m.addCommand(CookingSushi(machine))
+    sushi_m.add_command(PrepareSushiMachine(machine))
+    sushi_m.add_command(MakeSushiBase(chief))
+    sushi_m.add_command(PrepareRiceCommand(assistant))
+    sushi_m.add_command(AppliedRice(chief))
+    sushi_m.add_command(PrepareToppingCommand(assistant))
+    sushi_m.add_command(AddTopping(chief))
+    sushi_m.add_command(CookingSushi(machine))
     sushi_m.cook()

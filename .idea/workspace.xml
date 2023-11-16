@@ -4,21 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1119f560-de2b-41bd-a99c-c298b1999c36" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/10.Facade/facade.drawio.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11.FlyWeight/flyweight.drawio.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5.Singleton/singleton.drawio.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.Adapter/adapter.drawio.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/7.Bridge/bridge.drawio.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8.Composite/composite.drawio.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9.Decorator/decorator.drawio.png" afterDir="false" />
+    <list default="true" id="1119f560-de2b-41bd-a99c-c298b1999c36" name="Changes" comment=".">
+      <change afterPath="$PROJECT_DIR$/12.Proxy/proxy.drawio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14.Command/command.drawio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15.Iterator/Iterator.drawio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16.Mediator/mediator.drawio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17.Memento/memento.drawio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18.Observer/observer.drawio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/19.State/state.drawio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20.Strategy/strategy.drawio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/21.Template/template.drawio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.Prototype/prototype.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10.Facade/facade.py" beforeDir="false" afterPath="$PROJECT_DIR$/10.Facade/facade.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5.Singleton/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11.FlyWeight/light_weight_baby.py" beforeDir="false" afterPath="$PROJECT_DIR$/11.FlyWeight/light_weight_baby.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12.Proxy/proxy.py" beforeDir="false" afterPath="$PROJECT_DIR$/12.Proxy/proxy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14.Command/command.py" beforeDir="false" afterPath="$PROJECT_DIR$/14.Command/command.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/15.Iterator/iterator.py" beforeDir="false" afterPath="$PROJECT_DIR$/15.Iterator/iterator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.Prototype/prototype.py" beforeDir="false" afterPath="$PROJECT_DIR$/4.Prototype/prototype.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/5.Singleton/single.py" beforeDir="false" afterPath="$PROJECT_DIR$/5.Singleton/single.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.Adapter/adapter.py" beforeDir="false" afterPath="$PROJECT_DIR$/6.Adapter/adapter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/7.Bridge/bridge.py" beforeDir="false" afterPath="$PROJECT_DIR$/7.Bridge/bridge.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9.Decorator/decorator.py" beforeDir="false" afterPath="$PROJECT_DIR$/9.Decorator/decorator.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +51,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/django/patterns/11.FlyWeight",
+    "last_opened_file_path": "C:/django/patterns/4.Prototype",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -58,11 +61,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\django\patterns\11.FlyWeight" />
-      <recent name="C:\django\patterns\10.Facade" />
-      <recent name="C:\django\patterns\9.Decorator" />
-      <recent name="C:\django\patterns\8.Composite" />
-      <recent name="C:\django\patterns\7.Bridge" />
+      <recent name="C:\django\patterns\4.Prototype" />
+      <recent name="C:\django\patterns\21.Template" />
+      <recent name="C:\django\patterns\20.Strategy" />
+      <recent name="C:\django\patterns\19.State" />
+      <recent name="C:\django\patterns\18.Observer" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\django\patterns\2.Abstract Factory" />
@@ -71,7 +74,7 @@
       <recent name="C:\django\patterns\5.Singleton " />
     </key>
   </component>
-  <component name="RunManager" selected="Python.bridge">
+  <component name="RunManager" selected="Python.proxy">
     <configuration name="bridge" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="patterns" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -94,7 +97,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="template" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="light_weight_baby" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="patterns" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -102,12 +105,56 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/21.Template" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/11.FlyWeight" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/21.Template/template.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11.FlyWeight/light_weight_baby.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="proxy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="patterns" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/12.Proxy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/12.Proxy/proxy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="single" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="patterns" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5.Singleton" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5.Singleton/single.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -138,50 +185,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="visitor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="patterns" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/22.Visitor" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/22.Visitor/visitor.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test.TestPasswordCracker.test_dictionary_attack" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="patterns" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.TestPasswordCracker.test_dictionary_attack&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.proxy" />
+        <item itemvalue="Python.light_weight_baby" />
+        <item itemvalue="Python.single" />
         <item itemvalue="Python.bridge" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python tests.Python tests for test.TestPasswordCracker.test_dictionary_attack" />
-        <item itemvalue="Python.visitor" />
-        <item itemvalue="Python.template" />
       </list>
     </recent_temporary>
   </component>
@@ -214,15 +224,30 @@
       <workItem from="1699714072064" duration="103000" />
       <workItem from="1699714195390" duration="3171000" />
       <workItem from="1699886516660" duration="2757000" />
+      <workItem from="1700059711326" duration="7100000" />
+      <workItem from="1700139918474" duration="9477000" />
     </task>
+    <task id="LOCAL-00001" summary=".">
+      <option name="closed" value="true" />
+      <created>1700059739560</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700059739560</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/patterns$light_weight_baby.coverage" NAME="light_weight_baby Coverage Results" MODIFIED="1696253629165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11.FlyWeight" />
     <SUITE FILE_PATH="coverage/patterns$visitor.coverage" NAME="visitor Coverage Results" MODIFIED="1697792123991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22.Visitor" />
+    <SUITE FILE_PATH="coverage/patterns$light_weight_baby.coverage" NAME="light_weight_baby Coverage Results" MODIFIED="1700071466782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11.FlyWeight" />
     <SUITE FILE_PATH="coverage/patterns$state.coverage" NAME="state Coverage Results" MODIFIED="1696421563396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/19.State" />
     <SUITE FILE_PATH="coverage/patterns$fabric__1_.coverage" NAME="fabric (1) Coverage Results" MODIFIED="1695911344771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.Fabric Method" />
     <SUITE FILE_PATH="coverage/patterns$strategy.coverage" NAME="strategy Coverage Results" MODIFIED="1696422235118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20.Strategy" />
@@ -230,8 +255,8 @@
     <SUITE FILE_PATH="coverage/patterns$builder.coverage" NAME="builder Coverage Results" MODIFIED="1695907090413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3.Builder" />
     <SUITE FILE_PATH="coverage/patterns$.coverage" NAME=" Coverage Results" MODIFIED="1698398340605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/patterns$test.coverage" NAME="test Coverage Results" MODIFIED="1698398946619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22.Visitor" />
-    <SUITE FILE_PATH="coverage/patterns$single.coverage" NAME="single Coverage Results" MODIFIED="1695991278281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5.Singleton" />
     <SUITE FILE_PATH="coverage/patterns$decorator.coverage" NAME="decorator Coverage Results" MODIFIED="1696177604879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9.Decorator" />
+    <SUITE FILE_PATH="coverage/patterns$single.coverage" NAME="single Coverage Results" MODIFIED="1700070593278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5.Singleton" />
     <SUITE FILE_PATH="coverage/patterns$fabric.coverage" NAME="fabric Coverage Results" MODIFIED="1695899734122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fabric_method" />
     <SUITE FILE_PATH="coverage/patterns$command.coverage" NAME="command Coverage Results" MODIFIED="1696334416565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/14.Command" />
     <SUITE FILE_PATH="coverage/patterns$chain.coverage" NAME="chain Coverage Results" MODIFIED="1696334262052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/13.Chain of Responsibilities" />
@@ -240,8 +265,8 @@
     <SUITE FILE_PATH="coverage/patterns$abstract_factory.coverage" NAME="abstract_factory Coverage Results" MODIFIED="1695899886308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Abstract Factory" />
     <SUITE FILE_PATH="coverage/patterns$facade.coverage" NAME="facade Coverage Results" MODIFIED="1696247934463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10.Facade" />
     <SUITE FILE_PATH="coverage/patterns$observer.coverage" NAME="observer Coverage Results" MODIFIED="1696353571507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/18.Observer" />
-    <SUITE FILE_PATH="coverage/patterns$proxy.coverage" NAME="proxy Coverage Results" MODIFIED="1696253757291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/12.Proxy" />
     <SUITE FILE_PATH="coverage/patterns$iterator.coverage" NAME="iterator Coverage Results" MODIFIED="1696343751945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/15.Iterator" />
+    <SUITE FILE_PATH="coverage/patterns$proxy.coverage" NAME="proxy Coverage Results" MODIFIED="1700142418447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/12.Proxy" />
     <SUITE FILE_PATH="coverage/patterns$mediator.coverage" NAME="mediator Coverage Results" MODIFIED="1696351198337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16.Mediator" />
     <SUITE FILE_PATH="coverage/patterns$template.coverage" NAME="template Coverage Results" MODIFIED="1696425064112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/21.Template" />
     <SUITE FILE_PATH="coverage/patterns$composite.coverage" NAME="composite Coverage Results" MODIFIED="1696177594651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8.Composite" />
